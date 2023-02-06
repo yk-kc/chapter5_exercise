@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.nav-list {
+  padding: 15px 0px; 
+  text-align: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  padding: 0px 20px;
+  display: inline-block;
+  list-style: none;
+}
+
+.main {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* これがいらないのが分からない*/
+  margin: 50px auto;
+}
+
+.color1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.color2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.color3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.color4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.color5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.color6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.color7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.color8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.color9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.color10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.color11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.color12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
